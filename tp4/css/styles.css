@@ -1,6 +1,16 @@
-.navbar{
-background-color: white;
-align-items: center;
+body{
+    overflow-x: hidden;
+}
+
+#navbar-location{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+@media (max-width: 875px) {
+    #nav-f{
+        transform: scale(0.9); 
+    }
 }
 
 #CardFt{
@@ -9,7 +19,57 @@ align-items: center;
 
 }
 
+#li-d{
+    font-size: 15px;
+}
+
+#card-group{
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+#card-e{
+    border: 2px solid #a4c4c4;
+    transition: 0.5s;
+}
+
+#card-e:hover {
+    background-color: #a4c4c4;
+}
+
+#marcas{
+    border-top: 11px solid #c7dce2 ;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+@media (max-width: 1450px) {
+    #marcas,#card-group, #navbar-location{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width: 1210px) {
+    #marcas,#card-group, #navbar-location{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 1060px) {
+    #marcas{
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        display: contents !important;
+    }
+}
+
+
+
+
 .footerD{
-    
-    background-color: black;
+    background-color: #272e32;
+    padding: 30px;
 }
