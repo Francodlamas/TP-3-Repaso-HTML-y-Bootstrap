@@ -13,6 +13,11 @@ body{
     }
 }
 
+@media (min-width: 768px){}
+.row-cols-md-3>* {
+    flex: 0 0 auto !important;
+}
+
 #CardFt{
     height: 40px;
     width: 40px;
@@ -26,6 +31,12 @@ body{
 #card-group{
     padding-right: 200px;
     padding-left: 200px;
+}
+
+@media (max-width: 840px) {
+    #card-group{
+        text-align: center;
+    }
 }
 
 #card-e{
